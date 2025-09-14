@@ -1,3 +1,20 @@
+Modeling Irregularly-sampled and Multivariate Time Series
+(IMTS) is crucial across a variety of applications where different sets of variates may be missing at different time-steps due
+to sensor malfunctions or high data acquisition costs. Existing
+approaches for IMTS either consider a two-stage impute-thenmodel framework or involve specialized architectures specific
+to a particular model and task. We perform a series of experiments to derive novel insights about the performance of IMTS
+methods on a variety of semi-synthetic and real-world datasets
+for both classification and forecasting. We also introduce
+Missing Feature-aware Time Series Modeling (MissTSM)
+or MissTSM, a novel model-agnostic and imputation-free approach for IMTS modeling. We show that MissTSM shows
+competitive performance compared to other IMTS approaches,
+especially when the amount of missing values is large and the
+data lacks simplistic periodic structures—conditions common
+to real-world IMTS applications.
+
+Paper - [Investigating a Model-Agnostic and Imputation-Free Approach for Irregularly-Sampled Multivariate Time-Series Modeling](https://arxiv.org/abs/2502.15785)
+
+
 ## Repository Structure
 
 ```plaintext
